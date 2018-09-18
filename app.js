@@ -70,13 +70,83 @@ App({
     userInfo: null,
     ipa: {
       'A': {
-        'pronounce':'美 [eɪ]',
-        'audio':'https://fanyi.baidu.com/gettts?lan=uk&text=A&spd=3&source=web'
+        'pronounce':'美 [eɪ]'
       },
       'B': {
-        'pronounce':'英 [bi:]',
-        'audio': 'https://fanyi.baidu.com/gettts?lan=uk&text=B&spd=3&source=web'
-      }
+        'pronounce':'英 [bi:]'
+      },
+      'C': {
+        'pronounce':'美 [si:]'
+      },
+      'D': {
+        'pronounce':'美 [di:] '
+      },
+      'E': {
+        'pronounce':'美 [i:] '
+      },
+      'F': {
+        'pronounce':'美 [ef] '
+      },
+      'G': {
+        'pronounce':'美 [dʒi:] '
+      },
+      'H': {
+        'pronounce':'美 [eɪtʃ] '
+      },
+      'I': {
+        'pronounce':'美 [aɪ] '
+      },
+      'J': {
+        'pronounce':'英 [dʒeɪ]'
+      },
+      'K': {
+        'pronounce':'英 [keɪ] '
+      },
+      'L': {
+        'pronounce':'英 [el] '
+      },
+      'M': {
+        'pronounce':'美 [ɛm] '
+      },
+      'N': {
+        'pronounce':'英 [en] '
+      },
+      'O': {
+        'pronounce':'美 [oʊ] '
+      },
+      'P': {
+        'pronounce':'美 [pi:] '
+      },
+      'Q': {
+        'pronounce':'美 [kju:] '
+      },
+      'R': {
+        'pronounce':'英 [ɑ:(r)] '
+      },
+      'S': {
+        'pronounce':'英 [es] '
+      },
+      'T': {
+        'pronounce':'美 [ti:] '
+      },
+      'U': {
+        'pronounce':'美 [ju:] '
+      },
+      'V': {
+        'pronounce':'美 [vi:] '
+      },
+      'W': {
+        'pronounce':'英 [ˈdʌblju:] '
+      },
+      'X': {
+        'pronounce':'美 [eks] '
+      },
+      'Y': {
+        'pronounce':'美 [waɪ]'
+      },
+      'Z': {
+        'pronounce':'美 [zi:] '
+      },
     },
     relatedWords: {
       'A': [

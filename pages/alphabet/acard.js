@@ -14,8 +14,6 @@ Page({
 	},
 
 	onLoad: function(option) {
-		console.log(option);
-
 		this.setData({
 			cur: option.alphabet,
 			ipa,
@@ -32,15 +30,9 @@ Page({
 		let index = e.currentTarget.dataset.index;
 		let cur = e.currentTarget.dataset.cur;
 
-		console.log(index, cur);
-
 		let options = relatedWords[cur][index];
 
-		console.log(options);
-
 		let querystring = buildQueryString(options);
-
-		console.log(querystring);
 
 		wx.navigateTo({
 			url: 'relatedword?' + querystring
@@ -53,7 +45,6 @@ Page({
 	},
 
 	audioEnded: function (e) {
-		console.log(e);
 		this.audioCtx.seek(0);
 		this.setData({ isPlay: false, color: '' });
 	},
@@ -61,8 +52,6 @@ Page({
 	play: function (e) {
 		innerAudioCtx.src = e.currentTarget.dataset.src;
 		innerAudioCtx.play();
-		console.log(innerAudioCtx.duration);
-		console.log(e.currentTarget.dataset.src);
 		this.setData({ isPlay: true });
 	},
 
