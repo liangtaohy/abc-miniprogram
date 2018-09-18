@@ -1,0 +1,57 @@
+@import "../../lib/weui.wxss";
+.card-box {
+	display: flex;
+	border: solid yellow 4rpx;
+	width: 90%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10%;
+}
+
+.red {
+	color: red;
+}
+
+.flex-wrp {
+	display: flex;
+}
+
+.pronouce {
+	color: gray;
+}
+
+.icon-box {
+    margin-bottom: 50rpx;
+    display: flex;
+    align-items: center;
+}
+
+.a-stage {
+	font-size: 300rpx;
+}
+
+.sidebuttons {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	/**align-items: flex-start;**/
+}
+
+.relatedwords {
+	display: flex;
+	margin-top: 100rpx;
+	margin-bottom: 50rpx;
+	width: 100%;
+	justify-content: space-around;
+}
+
+.wx-icon-custom:before {
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    /**background-image: url("http://fanyi.bdstatic.com/static/translation/sprite/images/retina/index-sbe182eada5_be938d0.png");*/
+    background: url("http://www.teclast.com/zt/WIN10MDA/en/assets/img/play-video.png");
+    /**background-position: 0 0px;**/
+}

@@ -1,0 +1,14 @@
+@import "../../lib/weui.wxss";
+
+.flex-wrp {display: flex;}
+.a-card {
+	width: 150rpx;
+	height: 160rpx;
+	border: solid black 2rpx;
+	font-size: 90rpx;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	margin: 15rpx;
+	border-radius: 20%;
+}

@@ -1,0 +1,26 @@
+<view class="container">
+	<view class="flex-wrp" style="flex-direction:row;" wx:for="{{indexes}}">
+		<block wx:if="{{item < 6}}">
+			<view class="a-card" bindtap="goCardBox" data-alphabet="{{bigAlphabets[item * 4]}}">
+				<text>{{bigAlphabets[item * 4]}}</text>
+			</view>
+			<view class="a-card" bindtap="goCardBox" data-alphabet="{{bigAlphabets[item * 4 + 1]}}">
+				<text>{{bigAlphabets[item * 4 + 1]}}</text>
+			</view>
+			<view class="a-card" bindtap="goCardBox" data-alphabet="{{bigAlphabets[item * 4 + 2]}}">
+				<text>{{bigAlphabets[item * 4 + 2]}}</text>
+			</view>
+			<view class="a-card" bindtap="goCardBox" data-alphabet="{{bigAlphabets[item * 4 + 3]}}">
+				<text>{{bigAlphabets[item * 4 + 3]}}</text>
+			</view>
+		</block>
+		<block wx:else>
+			<view class="a-card" bindtap="goCardBox" data-alphabet="{{bigAlphabets[item * 4]}}">
+				<text>{{bigAlphabets[item * 4]}}</text>
+			</view>
+			<view class="a-card" bindtap="goCardBox" data-alphabet="{{bigAlphabets[item * 4 + 1]}}">
+				<text>{{bigAlphabets[item * 4 + 1]}}</text>
+			</view>
+		</block>
+	</view>
+</view>

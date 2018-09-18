@@ -1,0 +1,21 @@
+<view class="container">
+	<view class="card-box" style="flex-direction: column;">
+		<view class="a-stage {{color}}">
+			{{cur}}
+		</view>
+		<view class="sidebuttons" style="flex-direction:row;">
+			<view class="flex-wrp pronouce">{{ipa[cur].pronounce}}</view>
+			<view class="flex-wrp">
+				<audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="https://fanyi.baidu.com/gettts?lan=uk&text={{cur}}&spd=3&source=web" bindended="audioEnded" id="myAudio"></audio>
+				<!--<icon type="custom" bindtap="audioplay" size="93">play</icon>-->
+				<view bindtap="audioPlay" wx:if="{{isPlay==false}}"><text>播放</text></view>
+				<view wx:else="{{isPlay==true}}"><text>播放中</text></view>
+			</view>
+		</view>
+		<view class="relatedwords" style="flex-direction:row;">
+			<view wx:for="{{relatedWords[cur]}}" wx:for-index="index">
+				<button bindtap="seeword" data-index="{{index}}" data-cur="{{cur}}">{{item['word']}}</button>
+			</view>
+		</view>
+	</view>
+</view>
