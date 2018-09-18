@@ -174,6 +174,161 @@ App({
           'pronounce': '美 [hæt] ',
           'audio': 'https://fanyi.baidu.com/gettts?lan=uk&text=hat&spd=3&source=web'
         }
+      ],
+      'B': [
+        {
+          'word': 'banana',
+          'image': 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537268139251&di=95628b59e7a8a1b4338c5d37d2dcf5c8&imgtype=0&src=http%3A%2F%2Fimg.25pp.com%2Fuploadfile%2Fapp%2Ficon%2F20160302%2F1456887629306816.jpg',
+          'pronounce': '美 [bəˈnænə]',
+          'audio': 'https://fanyi.baidu.com/gettts?lan=en&text=banana&spd=3&source=web'
+        },
+        {
+          'word': 'bird',
+          'image': 'https://imgsrc.baidu.com/baike/pic/item/f11f3a292df5e0fe6da21d4d5f6034a85fdf72c0.jpg',
+          'pronounce': '美 [bɜ:rd] '
+        },
+        {
+          'word': 'ball',
+          'image': 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537268506816&di=60e975b1b1835aa5264207b242225199&imgtype=0&src=http%3A%2F%2Fimg.portofva.com%2Fpic%2Fz16e75e3-0x0-1%2Ftennis_ball.jpg',
+          'pronounce': '美 [bɔl] '
+        },
+        {
+          'word': 'bed',
+          'image': 'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3871758008,77885151&fm=26&gp=0.jpg',
+          'pronounce': '美 [bɛd]'
+        }
+      ],
+      'C': [
+        {
+          'word': 'cat',
+          'image': 'https://imgsrc.baidu.com/baike/pic/item/b2de9c82d158ccbfa4bb57cc13d8bc3eb03541c5.jpg',
+          'pronounce': '美 [kæt]'
+        },
+        {
+          'word': 'car',
+          'image': 'http://imgsrc.baidu.com/baike/pic/item/37d12f2eb9389b500c6deccc8d35e5dde6116e99.jpg',
+          'pronounce': '美 [kɑr]'
+        },
+        {
+          'word': 'cup',
+          'image': 'http://imgsrc.baidu.com/baike/pic/item/4bed2e738bd4b31c6f6280458ed6277f9f2ff8f6.jpg',
+          'pronounce': '美 [kʌp] '
+        },
+        {
+          'word': '',
+          'image': '',
+          'pronounce': ''
+        }
+      ],
+      'D': [
+        {
+          'word': 'dog',
+          'image': 'http://imgsrc.baidu.com/baike/pic/item/03087bf40ad162d973e0c9c217dfa9ec8b13cde6.jpg',
+          'pronounce': '美 [dɔ:g]'
+        },
+        {
+          'word': 'duck',
+          'image': 'http://imgsrc.baidu.com/baike/pic/item/ae51f3deb48f8c5431bf1b7e39292df5e0fe7f77.jpg',
+          'pronounce': '美 [dʌk]'
+        },
+        {
+          'word': 'dad',
+          'image': 'http://imgsrc.baidu.com/baike/pic/item/ae51f3deb48f8c5431bf1b7e39292df5e0fe7f77.jpg',
+          'pronounce': ''
+        },
+        {
+          'word': '',
+          'image': '',
+          'pronounce': ''
+        }
+      ],
+      'F': [
+        {
+          'word':'',
+          'image':'',
+          'pronounce':''
+        },
+        {
+          'word':'',
+          'image':'',
+          'pronounce':''
+        },
+        {
+          'word':'',
+          'image':'',
+          'pronounce':''
+        },
+        {
+          'word':'',
+          'image':'',
+          'pronounce':''
+        }
+      ],
+      'G': [
+        {
+          'word':'',
+          'image':'',
+          'pronounce':''
+        },
+        {
+          'word':'',
+          'image':'',
+          'pronounce':''
+        },
+        {
+          'word':'',
+          'image':'',
+          'pronounce':''
+        },
+        {
+          'word':'',
+          'image':'',
+          'pronounce':''
+        }
+      ],
+      'H': [
+        {
+          'word':'',
+          'image':'',
+          'pronounce':''
+        },
+        {
+          'word':'',
+          'image':'',
+          'pronounce':''
+        },
+        {
+          'word':'',
+          'image':'',
+          'pronounce':''
+        },
+        {
+          'word':'',
+          'image':'',
+          'pronounce':''
+        }
+      ],
+      'I': [
+        {
+          'word':'',
+          'image':'',
+          'pronounce':''
+        },
+        {
+          'word':'',
+          'image':'',
+          'pronounce':''
+        },
+        {
+          'word':'',
+          'image':'',
+          'pronounce':''
+        },
+        {
+          'word':'',
+          'image':'',
+          'pronounce':''
+        }
       ]
     }
   }

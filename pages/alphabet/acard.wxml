@@ -6,7 +6,7 @@
 		<view class="sidebuttons" style="flex-direction:row;">
 			<view class="flex-wrp pronouce">{{ipa[cur].pronounce}}</view>
 			<view class="flex-wrp">
-				<audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="https://fanyi.baidu.com/gettts?lan=uk&text={{cur}}&spd=3&source=web" bindended="audioEnded" id="myAudio"></audio>
+				<audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="https://fanyi.baidu.com/gettts?lan=en&text={{cur}}&spd=3&source=web" bindended="audioEnded" id="myAudio"></audio>
 				<!--<icon type="custom" bindtap="audioplay" size="93">play</icon>-->
 				<view bindtap="audioPlay" wx:if="{{isPlay==false}}"><text>播放</text></view>
 				<view wx:else="{{isPlay==true}}"><text>播放中</text></view>
