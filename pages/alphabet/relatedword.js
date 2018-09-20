@@ -4,8 +4,6 @@ const ImgLoader = require('../../imgloader/img-loader.js');
 const { loading } = require('../../config.js');
 const app = getApp();
 
-const innerAudioCtx = wx.createInnerAudioContext();
-
 Page({
 
   /**
@@ -14,6 +12,7 @@ Page({
   data: {
     imgUrl: '',
     isPlay: false,
+    color: '',
     word: 'apple',
     pronounce: '美 [ˈæpəl]',
     audio: 'https://fanyi.baidu.com/gettts?lan=en&text=apple&spd=3&source=web',
@@ -21,14 +20,14 @@ Page({
   },
 
   play: function (e) {
-    innerAudioCtx.src = e.currentTarget.dataset.src;
-    innerAudioCtx.play();
-    this.setData({ isPlay: true });
+    this.innerAudioCtx.src = e.currentTarget.dataset.src;
+    this.innerAudioCtx.play();
+    this.setData({ isPlay: true, color: 'red' });
   },
 
   onAudioEnded: function (e) {
     console.log(e);
-    this.setData({ isPlay: false });
+    this.setData({ isPlay: false, color: '' });
   },
 
   imageLoadedError: function (e) {
@@ -52,7 +51,6 @@ Page({
     this.imgLoader = new ImgLoader(this);
     
     this.setData({...options, imgUrl: loading});
-    innerAudioCtx.onEnded(this.onAudioEnded);
 
     this.imgLoader.load(options.image, (err, data) => {
       console.log('图片加载完成', err, data.src)
@@ -67,7 +65,8 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+    this.innerAudioCtx = wx.createInnerAudioContext();
+    this.innerAudioCtx.onEnded(this.onAudioEnded);
   },
 
   /**

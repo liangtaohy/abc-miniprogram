@@ -11,3 +11,7 @@
 .flex-wrp {
 	display: flex;
 }
+
+.red {
+	color: red;
+}

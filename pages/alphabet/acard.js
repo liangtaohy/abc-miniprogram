@@ -4,8 +4,6 @@ const app = getApp();
 const ipa = app.globalData.ipa;
 const relatedWords = app.globalData.relatedWords;
 
-const innerAudioCtx = wx.createInnerAudioContext();
-
 Page({
 	data: {
 		cur: 'A',
@@ -23,7 +21,11 @@ Page({
 
 	onReady: function (e) {
 		// 使用 wx.createAudioContext 获取 audio 上下文 context
-		this.audioCtx = wx.createAudioContext('myAudio');
+		this.innerAudioCtx = wx.createInnerAudioContext();
+		this.innerAudioCtx.onPlay(() => {
+			console.log('play');
+		});
+		this.innerAudioCtx.onEnded(this.ended);
 	},
 
 	seeword: function (e) {
@@ -39,24 +41,14 @@ Page({
 		});
 	},
 
-	audioPlay: function () {
-		this.audioCtx.play();
-		this.setData({ isPlay: true, color: 'red' });
-	},
-
-	audioEnded: function (e) {
-		this.audioCtx.seek(0);
+	ended: function (e) {
+		console.log(e);
 		this.setData({ isPlay: false, color: '' });
 	},
 
 	play: function (e) {
-		innerAudioCtx.src = e.currentTarget.dataset.src;
-		innerAudioCtx.play();
-		this.setData({ isPlay: true });
+		this.innerAudioCtx.src = e.currentTarget.dataset.src;
+		this.innerAudioCtx.play();
+		this.setData({ isPlay: true, color: 'red' });
 	},
-
-	stop: function (e) {
-		innerAudioCtx.pause();
-		this.setData({ isPlay: false });
-	}
 });

@@ -3,7 +3,7 @@
 		<view class="flex-wrp">
 			<image mode="aspectFit" wx:if="{{ imgUrl }}" src="{{imgUrl}}"></image>
 		</view>
-		<view class="flex-wrp" bindtap="play" data-src="https://fanyi.baidu.com/gettts?lan=en&text={{word}}&spd=3&source=web">
+		<view class="flex-wrp {{color}}" bindtap="play" data-src="https://fanyi.baidu.com/gettts?lan=en&text={{word}}&spd=3&source=web">
 			<text class="big">{{word}}</text>
 		</view>
 	</view>
