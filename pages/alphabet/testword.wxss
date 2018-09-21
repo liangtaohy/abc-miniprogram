@@ -1,0 +1,2 @@
+/* pages/alphabet/testword.wxss */
+@import "../../templates/word.wxss";

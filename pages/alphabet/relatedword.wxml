@@ -1,12 +1,14 @@
+<import src="../../templates/word.wxml" />
 <view class="container">
-	<view class="card" style="flex-direction:column;">
+	<template is="word" data="{{word,pronounce,isPlay,color,imgUrl}}"></template>
+	<!--<view class="card" style="flex-direction:column;">
 		<view class="flex-wrp">
 			<image mode="aspectFit" wx:if="{{ imgUrl }}" src="{{imgUrl}}"></image>
 		</view>
 		<view class="flex-wrp {{color}}" bindtap="play" data-src="https://fanyi.baidu.com/gettts?lan=en&text={{word}}&spd=3&source=web">
 			<text class="big">{{word}}</text>
 		</view>
-	</view>
+	</view>-->
 </view>
 
 <!-- 引入图片预加载组件 -->

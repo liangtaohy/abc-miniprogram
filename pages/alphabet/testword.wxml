@@ -1,0 +1,3 @@
+<import src="../../templates/word.wxml" />
+<template is="word" data="{{word,pronounce,isPlay,color,imgUrl}}"></template>
+<!--<icon class="icon iconfont icon-tongzhi"></icon>-->

@@ -2,6 +2,7 @@
 //引入图片预加载组件
 const ImgLoader = require('../../imgloader/img-loader.js');
 const { loading } = require('../../config.js');
+const Word = require("../../templates/word");
 const app = getApp();
 
 Page({
@@ -48,6 +49,7 @@ Page({
       options[key] = decodeURIComponent(options[key]);
     }
 
+    this.word = new Word(this);
     this.imgLoader = new ImgLoader(this);
     
     this.setData({...options, imgUrl: loading});

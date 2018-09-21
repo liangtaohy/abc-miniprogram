@@ -1,11 +1,8 @@
-.card {
-	/**border: solid black 4rpx;
-	border-radius: 10%;**/
+/**.card {
 	display: flex;
 	align-items: center;
 	padding-top: 100rpx;
 	padding-bottom: 100rpx;
-	/**height: 600rpx;**/
 }
 
 .flex-wrp {
@@ -14,4 +11,5 @@
 
 .red {
 	color: red;
-}
+}**/
+@import "../../templates/word.wxss";
