@@ -6,18 +6,18 @@
 			<text class="userinfo-nickname">{{userInfo.nickName}}</text>
 		</block>
 	</view>
-	<view>
+	<view class="flex-wrp">
 		<view class="small-card">
-			<image>ABC</image>
+			<text>ABC</text>
 		</view>
 		<view class="small-card">
-			<image>水果</image>
+			<image src="../../covers/pear.jpeg">水果</image>
 		</view>
 		<view class="small-card">
-			<image>蔬菜</image>
+			<image src="../../covers/cabbage.jpeg">蔬菜</image>
 		</view>
 		<view class="small-card">
-			<image>ABC</image>
+			<image src="../../covers/car.jpeg">ABC</image>
 		</view>
 	</view>
 </view>
