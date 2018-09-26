@@ -1,2 +1,3 @@
 /* pages/alphabet/testword.wxss */
-@import "../../templates/word.wxss";
+/*@import "../../templates/word.wxss";*/
+@import "../../templates/entries.wxss";

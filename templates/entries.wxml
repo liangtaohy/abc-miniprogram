@@ -1,0 +1,14 @@
+<template name="entries">
+	<view class="entry-list">
+		<block wx:for="{{entries}}">
+			<view class="entry-card" bindtap="entrytap" data-query="{{item['query']}}">
+				<view class="entry-img">
+					<image class="entry-cover" src="{{item['cover']}}"></image>
+				</view>
+				<view>
+					<text>{{item["comment"]}}</text>
+				</view>
+			</view>
+		</block>
+	</view>
+</template>

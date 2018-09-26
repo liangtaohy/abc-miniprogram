@@ -1,0 +1,25 @@
+<view class="container">
+	<view style="width: 100%; height: 100%;">
+		<swiper indicator-dots="{{false}}" style="height: 100%;" current="{{current}}">
+			<block wx:for="{{db}}">
+				<swiper-item>
+					<view class="swiper-content">
+						<view>
+							<image mode="aspectFit" src="{{item.cover}}"></image>
+						</view>
+						<view class="flex-wrp {{color}}" bindtap="play" data-src="https://fanyi.baidu.com/gettts?lan=en&text={{item.name}}&spd=3&source=web">
+							<text class="big">{{item.name}}</text>
+							<text class="trans-listen-button jfk-button-img"></text>
+						</view>
+						<view>
+							<text>{{item.pronounce}}</text>
+						</view>
+						<view>
+							<text>{{item.zh}}</text>
+						</view>
+					</view>
+				</swiper-item>
+			</block>
+		</swiper>
+	</view>
+</view>

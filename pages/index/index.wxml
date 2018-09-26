@@ -1,23 +1,14 @@
-<view class="container">
+<view class="container" style="flex-direction: column;">
 	<view class="userinfo">
 		<button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 点击登录 </button>
 		<block wx:else>
-			<image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+			<image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="aspectFit"></image>
 			<text class="userinfo-nickname">{{userInfo.nickName}}</text>
 		</block>
 	</view>
 	<view class="flex-wrp">
 		<view class="small-card">
 			<text>ABC</text>
-		</view>
-		<view class="small-card">
-			<image src="../../covers/pear.jpeg">水果</image>
-		</view>
-		<view class="small-card">
-			<image src="../../covers/cabbage.jpeg">蔬菜</image>
-		</view>
-		<view class="small-card">
-			<image src="../../covers/car.jpeg">ABC</image>
 		</view>
 	</view>
 </view>

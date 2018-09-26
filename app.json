@@ -1,6 +1,9 @@
 {
   "pages":[
+    "pages/wordcards/list",
+    "pages/alphabet/testword",
     "pages/index/index",
+    "pages/wordcards/index",
     "pages/alphabet/index",
     "pages/alphabet/acard",
     "pages/alphabet/relatedword",

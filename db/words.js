@@ -37,9 +37,9 @@ let FruitWordDb = [
 	{id:36, name: "Muskmelon", zh: "甜瓜;香甘瓜，香瓜", pronounce: "美 ['mʌskˌmelən]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537642431510&di=ff43e4b28e2347eb41b10c539ccbc7cb&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimage%2Fc0%253Dpixel_huitu%252C0%252C0%252C294%252C40%2Fsign%3D5127f8f148166d222c7a1dd42f5b6c9b%2F5ab5c9ea15ce36d3d1e5fc0a31f33a87e950b122.jpg"}
 ];
 
-let VegetablesWordDb = {
+let VegetablesWordDb = [
 	{id:1, name: "mushroom", zh: "蘑菇", pronounce: "美 [ˈmʌʃˌrum, -ˌrʊm]", cover: "http://imgsrc.baidu.com/baike/pic/item/b8389b504fc2d562713e6c98ee1190ef76c66c95.jpg"},
-	{id:2, name: "onion", zh: "洋葱", pronounce: "美 [ˈʌnjən] ", cover: "http://img.21food.com/20110609/descript/1306877462770.jpg"},
+	{id:2, name: "onion", zh: "洋葱", pronounce: "美 [ˈʌnjən]", cover: "http://img.21food.com/20110609/descript/1306877462770.jpg"},
 	{id:3, name: "garlic", zh: "大蒜;蒜头", pronounce: "美 [ˈgɑ:rlɪk]", cover: "http://imgsrc.baidu.com/baike/pic/item/4bed2e738bd4b31cb33f7ad784d6277f9e2ff85f.jpg"},
 	{id:4, name: "Chinese cabbage", zh: "大白菜", pronounce: "美 [tʃaɪˈniz ˈkæbɪdʒ]", cover: "http://imgsrc.baidu.com/baike/pic/item/dcc451da81cb39db9d2ef423d9160924aa1830dc.jpg"},
 	{id:5, name: "carrot", zh: "胡萝卜", pronounce: "美 [ˈkærət]", cover: "http://imgsrc.baidu.com/baike/pic/item/72f082025aafa40f4e421973a164034f79f01993.jpg"},
@@ -60,9 +60,9 @@ let VegetablesWordDb = {
 	{id:20, name: "white gourd", zh: "冬瓜", pronounce: "美 [hwaɪt ɡɔrd]", cover: "http://www.huichihuihe.com/upfile/15037309762.jpg"},
 	{id:21, name: "cauliflower", zh: "菜花", pronounce: "美 [ˈkɔ:liflaʊə(r)]", cover: "https://imgsrc.baidu.com/baike/pic/item/d31b0ef41bd5ad6e00febea58bcb39dbb6fd3c7e.jpg"},
 	{id:22, name: "Lily", zh: "百合", pronounce: "美 ['lɪlɪ]", cover: "http://img07.tooopen.com/images/20170628/tooopen_sy_215023358257.jpg"}
-};
+];
 
-let NumbersDb = {
+let NumbersDb = [
 	{number: 1, en: "one"},
 	{number: 2, en: "tow"},
 	{number: 3, en: "three"},
@@ -73,9 +73,9 @@ let NumbersDb = {
 	{number: 8, en: "eight"},
 	{number: 9, en: "nine"},
 	{number: 0, en: "zero"}
-};
+];
 
-let ColorsDb = {
+let ColorsDb = [
 	{id: 1, name: "red", zh: "红", pronounce: "美 [rɛd]", cover: ""},
 	{id: 2, name: "orange", zh: "橙", pronounce: "美 [ˈɔ:rɪndʒ]", cover: ""},
 	{id: 3, name: "yellow", zh: "黄", pronounce: "美 [ˈjeloʊ]", cover: ""},
@@ -89,9 +89,9 @@ let ColorsDb = {
 	{id: 11, name: "cyan", zh: "青", pronounce: "美 [ˈsaɪˌæn, -ən]", cover: ""},
 	{id: 12, name: "silver", zh: "银", pronounce: "美 [ˈsɪlvɚ]", cover: ""},
 	{id: 13, name: "tan", zh: "茶色;晒黑的皮色", pronounce: "美 [tæn]", cover: ""}
-};
+];
 
-let StationerDb = {
+let StationerDb = [
 	{id:0, name: "pen", zh: "笔", pronounce: "美 [pɛn]", cover: "http://img.frbiz.com/nimg/7f/23/f86591c447497018a862d8c8cb79-0x0-0/world_strong_style_color_b82220_map_strong_designed_metal_roller_pen_for_gift_promotion.jpg"},
 	{id:0, name: "pencil", zh: "铅笔", pronounce: "美 [ˈpɛnsəl]", cover: "https://imgsrc.baidu.com/image/c0%3Dshijue1%2C0%2C0%2C294%2C40/sign=5d3a803fd754564ef168ec7adbb7f6f7/9358d109b3de9c82c53645a36681800a19d8434e.jpg"},
 	{id:0, name: "ruler", zh: "尺子", pronounce: "美 [ˈrulɚ]", cover: "http://worldartsme.com/images/ruler-clipart-1.jpg"},
@@ -104,9 +104,9 @@ let StationerDb = {
 	{id:0, name: "glue", zh: "胶水", pronounce: "美 [ɡlu]", cover: ""},
 	{id:0, name: "scissors", zh: "剪刀", pronounce: "美 [ˈsɪzərz]", cover: "http://pic.58pic.com/58pic/15/57/05/12r58PICt6V_1024.png"},
 	{id:0, name: ""}
-};
+];
 
-let AnimalsDb = {
+let AnimalsDb = [
 	{id:0, name: "dog", zh: "狗", pronounce: "美 [dɔ:g]", cover: "http://imgsrc.baidu.com/baike/pic/item/03087bf40ad162d973e0c9c217dfa9ec8b13cde6.jpg"},
 	{id:0, name: "cat", zh: "猫", pronounce: "美 [kæt]", cover: "http://imgsrc.baidu.com/baike/pic/item/b2de9c82d158ccbfa4bb57cc13d8bc3eb03541c5.jpg"},
 	{id:0, name: "fish", zh: "鱼", pronounce: "美 [fɪʃ]", cover: "https://img.25pp.com/uploadfile/app/icon/20160508/1462659942284493.jpg"},
@@ -130,7 +130,7 @@ let AnimalsDb = {
 	{id:0, name: "rabbit", zh: "兔子", pronounce: "美 [ˈræbɪt]", cover: "http://imgsrc.baidu.com/baike/pic/item/78310a55b319ebc4bf75b2aa8126cffc1e1716f7.jpg"},
 	{id:0, name: "hippopotamus", zh: "河马", pronounce: "美 [ˌhɪpəˈpɑ:təməs]", cover: "http://news.k618.cn/xda/201304/W020130423270547420433.jpg"},
 	{id:0, name: "dolphin", zh: "海豚", pronounce: "美 [ˈdɑ:lfɪn]", cover: "http://imgsrc.baidu.com/baike/pic/item/79f0f736afc379317537cb47e9c4b74543a91104.jpg"},
-	{id:0, name: "whale", zh: "鲸", pronounce: "美 [hwel, wel] ", cover: "https://img5.duitang.com/uploads/blog/201403/25/20140325183121_QQavi.jpeg"},
+	{id:0, name: "whale", zh: "鲸", pronounce: "美 [hwel, wel] ", cover: "http://d.c-launcher.com/wallpaper/img/876/53fdcab7e4b0b03cd50651dc/1409141431337/wallpaper.jpg"},
 	{id:0, name: "snail", zh: "蜗牛", pronounce: "美 [snel]", cover: "http://imgsrc.baidu.com/baike/pic/item/4b90f603738da97732e04737b851f8198718e3db.jpg"},
 	{id:0, name: "frog", zh: "青蛙", pronounce: "美 [frɔ:g]", cover: "http://imgsrc.baidu.com/baike/pic/item/8d5494eef01f3a29348c935f9325bc315d607cde.jpg"},
 	{id:0, name: "snake", zh: "蛇", pronounce: "美 [sneɪk] ", cover: "http://imgsrc.baidu.com/baike/pic/item/cdbf6c81800a19d82446bcad34fa828ba71e46d4.jpg"},
@@ -138,7 +138,7 @@ let AnimalsDb = {
 	{id:0, name: "crab", zh: "蟹", pronounce: "美 [kræb]", cover: "http://imgsrc.baidu.com/baike/pic/item/64380cd7912397dd8161ef725082b2b7d0a287af.jpg"},
 	{id:0, name: "worm", zh: "蚯蚓", pronounce: "美 [wɜ:rm]", cover: "http://imgsrc.baidu.com/baike/pic/item/4610b912c8fcc3cee69d67bb9845d688d53f20dc.jpg"},
 	{id:0, name: "chick", zh: "小鸡", pronounce: "美 [tʃɪk]", cover: "http://imgsrc.baidu.com/baike/pic/item/7c1ed21b0ef41bd50505f9e158da81cb39db3d54.jpg"},
-	{id:0, name: "duck", zh: "鸭子", pronounce: "美 [dʌk]", cover: "https://b-ssl.duitang.com/uploads/blog/201410/16/20141016141123_fzSAU.jpeg"},
+	{id:0, name: "duck", zh: "鸭子", pronounce: "美 [dʌk]", cover: "https://imgsrc.baidu.com/image/c0%3Dshijue1%2C0%2C0%2C294%2C40/sign=d0bd82c65d2c11dfcadcb7600b4e08a5/a8ec8a13632762d04567e19aaaec08fa513dc6be.jpg"},
 	{id:0, name: "goose", zh: "鹅", pronounce: "美 [ɡus]", cover: "http://img1.imgtn.bdimg.com/it/u=240909604,2927509449&fm=26&gp=0.jpg"},
 	{id:0, name: "spider", zh: "蜘蛛", pronounce: "美 [ˈspaɪdɚ]", cover: "http://imgsrc.baidu.com/baike/pic/item/cefc1e178a82b901ffaabaf1718da9773812efe9.jpg"},
 	{id:0, name: "ant", zh: "蚂蚁", pronounce: "美 [ænt]", cover: "http://imgsrc.baidu.com/baike/pic/item/a005b334fde10787d0a2d3b1.jpg"},
@@ -154,5 +154,14 @@ let AnimalsDb = {
 	{id:0, name: "ostrich", zh: "鸵鸟", pronounce: "美 [ˈɑ:strɪtʃ]", cover: "http://imgsrc.baidu.com/baike/pic/item/0ff41bd5ad6eddc43cf1e0bd30dbb6fd52663365.jpg"},
 	{id:0, name: "donkey", zh: "毛驴", pronounce: "美 [ˈdɑ:ŋki]", cover: "http://imgsrc.baidu.com/baike/pic/item/94cad1c8a786c917dfc975a6c03d70cf3ac75762.jpg"},
 	{id:0, name: "grasshopper", zh: "蚱蜢", pronounce: "美 [ˈgræshɑ:pə(r)]", cover: "http://imgsrc.baidu.com/baike/pic/item/48540923dd54564e37292fb9b3de9c82d0584fe6.jpg"},
-	{id:0, name: "Dinosaur", zh: "恐龙", pronounce: "美 [ˈdaɪnəˌsɔr]", cover: "http://imgsrc.baidu.com/baike/pic/item/b21c8701a18b87d6a57814840e0828381f30fd77.jpg"}
+	{id:0, name: "Dinosaur", zh: "恐龙", pronounce: "美 [ˈdaɪnəˌsɔr]", cover: "http://imgsrc.baidu.com/baike/pic/item/b21c8701a18b87d6a57814840e0828381f30fd77.jpg"},
+	{id:0, name: "shrimp", zh: "虾", pronounce: "美 [ʃrɪmp]", cover: "http://imgsrc.baidu.com/baike/pic/item/0eb30f2442a7d9330398ca48ae4bd11373f001dc.jpg"}
+];
+
+module.exports = {
+	AnimalsDb: AnimalsDb,
+	StationerDb: StationerDb,
+	ColorsDb: ColorsDb,
+	VegetablesWordDb: VegetablesWordDb,
+	FruitWordDb: FruitWordDb
 }

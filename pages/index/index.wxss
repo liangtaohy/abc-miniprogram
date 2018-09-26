@@ -24,8 +24,3 @@
 	display: flex;
 	flex-direction: column;
 }
-
-/*.small-card image {
-	width: 100%;
-	height: 100%;
-}*/
