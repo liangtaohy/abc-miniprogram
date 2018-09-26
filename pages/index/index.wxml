@@ -1,3 +1,4 @@
+<import src="../../templates/entries.wxml" />
 <view class="container" style="flex-direction: column;">
 	<view class="userinfo">
 		<button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 点击登录 </button>
@@ -6,9 +7,5 @@
 			<text class="userinfo-nickname">{{userInfo.nickName}}</text>
 		</block>
 	</view>
-	<view class="flex-wrp">
-		<view class="small-card">
-			<text>ABC</text>
-		</view>
-	</view>
+	<template is="entries" data="{{entries}}"></template>
 </view>

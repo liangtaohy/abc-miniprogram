@@ -8,9 +8,9 @@ class Entries {
 	entrytap(e) {
 		console.log(e);
 		let params = e.currentTarget.dataset.query;
-
+		let nextpage = e.currentTarget.dataset.nextpage || this.nextpage;
 		wx.navigateTo({
-			url: this.nextpage + '?' + params
+			url: nextpage + '?' + params
 		});
 	}
 }

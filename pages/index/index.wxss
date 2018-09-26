@@ -17,10 +17,11 @@
 }
 
 .usermotto {
-  margin-top: 200px;
+  /*margin-top: 200px;*/
 }
 
 .flex-wrp {
 	display: flex;
 	flex-direction: column;
 }
+@import "../../templates/entries.wxss";

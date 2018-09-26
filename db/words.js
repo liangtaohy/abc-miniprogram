@@ -158,10 +158,29 @@ let AnimalsDb = [
 	{id:0, name: "shrimp", zh: "虾", pronounce: "美 [ʃrɪmp]", cover: "http://imgsrc.baidu.com/baike/pic/item/0eb30f2442a7d9330398ca48ae4bd11373f001dc.jpg"}
 ];
 
+let TransportationDb = [
+	{id:0, name: "Bicycle", zh: "自行车", pronounce: "美 [ˈbaɪsɪkl]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537987629778&di=8e3f6c8d7d7470992ebc05e3e875d746&imgtype=jpg&src=http%3A%2F%2Fimg4.imgtn.bdimg.com%2Fit%2Fu%3D2437549599%2C4209829176%26fm%3D214%26gp%3D0.jpg"},
+	{id:0, name: "taxi", zh: "出租车", pronounce: "美 [ˈtæksi]", cover: "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1956194174,3174202337&fm=26&gp=0.jpg"},
+	{id:0, name: "Scooter", zh: "滑板车", pronounce: "美 [ˈskutɚ]", cover: "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2643165915,151055753&fm=26&gp=0.jpg"},
+	{id:0, name: "vehicle", zh: "", pronounce: "", cover: ""},
+	{id:0, name: "ship", zh: "", pronounce: "", cover: ""},
+	{id:0, name: "motorcycle", zh: "摩托车", pronounce: "美 [ˈmoʊtərsaɪkl]", cover: "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2724725557,2927685458&fm=26&gp=0.jpg"},
+	{id:0, name: "train", zh: "火车", pronounce: "美 [tren]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537988135648&di=da5eb66896332ff1cf235ad752c3afa4&imgtype=0&src=http%3A%2F%2Fcdn.ipernity.com%2F200%2F36%2F48%2F43303648.70e059b8.640.jpg%3Fr2"},
+	{id:0, name: "bus", zh: "公共汽车", pronounce: "美 [bʌs]", cover: "http://imgsrc.baidu.com/baike/pic/item/6d81800a19d8bc3e12ac34aa818ba61ea8d3452d.jpg"},
+	{id:0, name: "car", zh: "汽车", pronounce: "美 [kɑr]", cover: "http://imgsrc.baidu.com/baike/pic/item/37d12f2eb9389b500c6deccc8d35e5dde6116e99.jpg"},
+	{id:0, name: "plane", zh: "飞机", pronounce: "美 [plen]", cover: "http://imgsrc.baidu.com/baike/pic/item/faf2b2119313b07e5923b5660fd7912396dd8cc6.jpg"},
+	{id:0, name: "truck", zh: "货车", pronounce: "美 [trʌk]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537987919618&di=c16c80ae0b62c16afacb9acc9c6d1adf&imgtype=0&src=http%3A%2F%2Fimg.frbiz.com%2Fnimg%2F2e%2F62%2Fb79477ab836edeb856e91d9c1801-0x0-1%2F4_ton_light_dump_truck.jpg"},
+	{id:0, name: "police car", zh: "警车", pronounce: "美 [pəˈlis kɑr]", cover: "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2491938402,3677278119&fm=26&gp=0.jpg"},
+	{id:0, name: "van", zh: "厢式货车", pronounce: "美 [væn]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537987999591&di=119de5ad8cda1647df7cc9fed34b83cd&imgtype=0&src=http%3A%2F%2Fimg.tradekey.com%2Fp-7049277-20131127121509%2Fdamas-ii-deluxe-fullvan.jpg"},
+	{id:0, name: "sailboat", zh: "帆船", pronounce: "美 [ˈseɪlboʊt]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537987540357&di=d01733e7789b52c47ea423d25ab061ad&imgtype=0&src=http%3A%2F%2Fs13.sinaimg.cn%2Fmw690%2F001TCnN9zy74UuUfaNK7c%26690"},
+	{id:0, name: "excavator", zh: "挖掘机", pronounce: "美 [ˈɛkskəˌvetɚ]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537987477171&di=d87b566f45ef4dca8cd08a9466da7f96&imgtype=0&src=http%3A%2F%2Fimage3.cccme.org.cn%2Fi_supply%2F13-11-22%2F13112210100593.jpg"}
+];
+
 module.exports = {
 	AnimalsDb: AnimalsDb,
 	StationerDb: StationerDb,
 	ColorsDb: ColorsDb,
 	VegetablesWordDb: VegetablesWordDb,
-	FruitWordDb: FruitWordDb
+	FruitWordDb: FruitWordDb,
+	TransportationDb: TransportationDb
 }

@@ -1,8 +1,10 @@
 //index.js
 //获取应用实例
-var constants = require("../../constants")
-var config = require("../../config")
-const app = getApp()
+var constants = require("../../constants");
+var config = require("../../config");
+const { BookDb } = require("../../db/book");
+const Entries = require("../../templates/entries");
+const app = getApp();
 
 Page({
   data: {
@@ -10,7 +12,8 @@ Page({
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
-    mobile: null
+    mobile: null,
+    entries: BookDb
   },
   //事件处理函数
   bindViewTap: function() {
@@ -19,6 +22,7 @@ Page({
     })
   },
   onLoad: function () {
+    this.entries = new Entries(this, "/pages/wordcards/list");
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
