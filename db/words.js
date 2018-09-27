@@ -1,20 +1,20 @@
 let FruitWordDb = [
-	{id:1, name: "cherry", pronounce: "美 [ˈtʃɛri]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1537500065&di=192a6a3551e8c296f3c0266465c8e489&src=http://pic11.photophoto.cn/20090519/0035035504458180_b.jpg"},
-	{id:2, name: "apple", pronounce: "美 [ˈæpəl]", cover: "http://imgsrc.baidu.com/baike/pic/item/8b82b9014a90f6033d0618cc3f12b31bb151ed83.jpg"},
-	{id:3, name: "pear", pronounce: "美 [per]", cover: "http://imgsrc.baidu.com/baike/pic/item/e7cd7b899e510fb34ca2d8e2d033c895d1430c0f.jpg"},
-	{id:4, name: "banana", pronounce: "美 [bəˈnænə]", cover: "http://imgsrc.baidu.com/baike/pic/item/5d6034a85edf8db12c69f8ef0f23dd54574e74f2.jpg"},
-	{id:5, name: "grape", pronounce: "美 [ɡrep]", cover: "http://imgsrc.baidu.com/baike/pic/item/060828381f30e9243009210347086e061d95f757.jpg"},
-	{id:6, name: "peach", pronounce: "美 [pitʃ]", cover: "http://imgsrc.baidu.com/baike/pic/item/9213b07eca80653861b96ab497dda144ac3482c2.jpg"},
-	{id:7, name: "orange", pronounce: "美 [ˈɔ:rɪndʒ]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537557403108&di=a8900cd4c405db4ac180e6c160da07cf&imgtype=0&src=http%3A%2F%2Fcrawler-fs.intsig.net%2Fcamfs%2Fdownload%3Ffilename%3D10005_c0bd0a21e9dae6a3ffbc7adf9a58405c_avatar.jpeg"},
-	{id:8, name: "watermelon", pronounce: "美 [ˈwɔ:tərmelən]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537557509999&di=78c6141465ceed91119662160c45fbd6&imgtype=0&src=http%3A%2F%2Fimg.frbiz.com%2Fpic%2Fz1dca328-0x0-1%2Fwatermelon_stripped_leopard_seedless.jpg"},
-	{id:9, name: "tomato", pronounce: "美 [təˈmeɪtoʊ]", cover: "http://imgsrc.baidu.com/baike/pic/item/a50f4bfbfbedab6452b8e450f036afc378311e53.jpg"},
-	{id:10, name: "pineapple", pronounce: "美 [ˈpaɪnˌæpəl]", cover: "http://imgsrc.baidu.com/baike/pic/item/b219ebc4b74543a941fbf6af1c178a82b80114f4.jpg"},
-	{id:11, name: "cherry", pronounce: "美 [ˈtʃɛri]", cover: "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3171121872,4139991064&fm=26&gp=0.jpg"},
-	{id:12, name: "Coconut", pronounce: "美 [ˈkoʊkənʌt]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537635758095&di=dac72211b1a7a53ce3b8a7a35e2c0ff2&imgtype=0&src=http%3A%2F%2Fqcloud.dpfile.com%2Fpc%2FLzFsC9J2A3jXDUAX1J6P2n0TIeI09R_EH16BK9nd9bgg4-GAUftD83UEScYCeK-UTYGVDmosZWTLal1WbWRW3A.jpg"},
-	{id:13, name: "Blueberry", pronounce: "美 [ˈblu:beri]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537636572174&di=2a848d2136c2a45fccbf3261d19f54d4&imgtype=0&src=http%3A%2F%2Fsrc.onlinedown.net%2Fsupply%2F170210_logo%2FBlueberry.jpg"},
-	{id:14, name: "Cumquat", pronounce: "美 ['kʌmˌkwɒt]", cover: "http://imgsrc.baidu.com/baike/pic/item/eaf81a4c510fd9f93e943bfa2f2dd42a2934a4a6.jpg"},
-	{id:15, name: "Fig", pronounce: "美 [fɪɡ]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537637242850&di=70888a94d1792d43e1e64a0374f43cdc&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2F4d086e061d950a7bd82747ff01d162d9f2d3c9ff.jpg"},
-	{id:16, name: "Filbert", zh: "榛果;榛树，榛子", pronounce: "美 [ˈfɪlbərt]", cover: "http://imgsrc.baidu.com/baike/pic/item/a5c27d1ed21b0ef456d7d0f1d7c451da81cb3e65.jpg"},
+	{id:1, name: "cherry", zh: "樱桃", pronounce: "美 [ˈtʃɛri]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1537500065&di=192a6a3551e8c296f3c0266465c8e489&src=http://pic11.photophoto.cn/20090519/0035035504458180_b.jpg"},
+	{id:2, name: "apple", zh: "苹果", pronounce: "美 [ˈæpəl]", cover: "http://imgsrc.baidu.com/baike/pic/item/8b82b9014a90f6033d0618cc3f12b31bb151ed83.jpg"},
+	{id:3, name: "pear", zh: "梨", pronounce: "美 [per]", cover: "http://imgsrc.baidu.com/baike/pic/item/e7cd7b899e510fb34ca2d8e2d033c895d1430c0f.jpg"},
+	{id:4, name: "banana", zh: "香蕉", pronounce: "美 [bəˈnænə]", cover: "http://imgsrc.baidu.com/baike/pic/item/5d6034a85edf8db12c69f8ef0f23dd54574e74f2.jpg"},
+	{id:5, name: "grape", zh: "葡萄", pronounce: "美 [ɡrep]", cover: "http://imgsrc.baidu.com/baike/pic/item/060828381f30e9243009210347086e061d95f757.jpg"},
+	{id:6, name: "peach", zh: "桃", pronounce: "美 [pitʃ]", cover: "http://imgsrc.baidu.com/baike/pic/item/9213b07eca80653861b96ab497dda144ac3482c2.jpg"},
+	{id:7, name: "orange", zh: "橙子", pronounce: "美 [ˈɔ:rɪndʒ]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537557403108&di=a8900cd4c405db4ac180e6c160da07cf&imgtype=0&src=http%3A%2F%2Fcrawler-fs.intsig.net%2Fcamfs%2Fdownload%3Ffilename%3D10005_c0bd0a21e9dae6a3ffbc7adf9a58405c_avatar.jpeg"},
+	{id:8, name: "watermelon", zh: "西瓜", pronounce: "美 [ˈwɔ:tərmelən]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537557509999&di=78c6141465ceed91119662160c45fbd6&imgtype=0&src=http%3A%2F%2Fimg.frbiz.com%2Fpic%2Fz1dca328-0x0-1%2Fwatermelon_stripped_leopard_seedless.jpg"},
+	{id:9, name: "tomato", zh: "西红柿", pronounce: "美 [təˈmeɪtoʊ]", cover: "http://imgsrc.baidu.com/baike/pic/item/a50f4bfbfbedab6452b8e450f036afc378311e53.jpg"},
+	{id:10, name: "pineapple", zh: "菠萝", pronounce: "美 [ˈpaɪnˌæpəl]", cover: "http://imgsrc.baidu.com/baike/pic/item/b219ebc4b74543a941fbf6af1c178a82b80114f4.jpg"},
+	//{id:11, name: "cherry", zh: "", pronounce: "美 [ˈtʃɛri]", cover: "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3171121872,4139991064&fm=26&gp=0.jpg"},
+	{id:12, name: "Coconut", zh: "椰子", pronounce: "美 [ˈkoʊkənʌt]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537635758095&di=dac72211b1a7a53ce3b8a7a35e2c0ff2&imgtype=0&src=http%3A%2F%2Fqcloud.dpfile.com%2Fpc%2FLzFsC9J2A3jXDUAX1J6P2n0TIeI09R_EH16BK9nd9bgg4-GAUftD83UEScYCeK-UTYGVDmosZWTLal1WbWRW3A.jpg"},
+	{id:13, name: "Blueberry", zh: "蓝莓", pronounce: "美 [ˈblu:beri]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537636572174&di=2a848d2136c2a45fccbf3261d19f54d4&imgtype=0&src=http%3A%2F%2Fsrc.onlinedown.net%2Fsupply%2F170210_logo%2FBlueberry.jpg"},
+	{id:14, name: "Cumquat", zh: "金橘", pronounce: "美 ['kʌmˌkwɒt]", cover: "http://imgsrc.baidu.com/baike/pic/item/eaf81a4c510fd9f93e943bfa2f2dd42a2934a4a6.jpg"},
+	{id:15, name: "Fig", zh: "无花果", pronounce: "美 [fɪɡ]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537637242850&di=70888a94d1792d43e1e64a0374f43cdc&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2F4d086e061d950a7bd82747ff01d162d9f2d3c9ff.jpg"},
+	{id:16, name: "Filbert", zh: "榛果,榛子", pronounce: "美 [ˈfɪlbərt]", cover: "http://imgsrc.baidu.com/baike/pic/item/a5c27d1ed21b0ef456d7d0f1d7c451da81cb3e65.jpg"},
 	{id:17, name: "Haw", zh: "山楂", pronounce: "美 [hɔ]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537637501876&di=1584a232dcfbc453d835f173a486530e&imgtype=0&src=http%3A%2F%2Fimg.mp.itc.cn%2Fupload%2F20161112%2F13a91b00827c46b2b4e721bdbfcc5509_th.jpg"},
 	{id:18, name: "Kiwifruit", zh: "猕猴桃", pronounce: "美 [kɪwɪf'ru:t]", cover: "http://imgsrc.baidu.com/baike/pic/item/203fb80e7bec54e7ecdfb3b8b3389b504fc26a61.jpg"},
 	{id:19, name: "Lemon", zh: "柠檬", pronounce: "美 [ˈlɛmən]", cover: "http://imgsrc.baidu.com/baike/pic/item/908fa0ec08fa513d5e27f61e376d55fbb3fbd965.jpg"},
@@ -34,7 +34,7 @@ let FruitWordDb = [
 	{id:33, name: "mangosteen", zh: "山竹果", pronounce: "美 [ˈmæŋɡəˌstin]", cover: "http://imgsrc.baidu.com/baike/pic/item/c9fcc3cec3fdfc03747e0a6ede3f8794a5c226e6.jpg"},
 	{id:34, name: "cucumber", zh: "黄瓜", pronounce: "美 [ˈkjuˌkʌmbɚ]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537641965909&di=b6ec5b18711a4739ddd6a28ae673cb53&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2Fb03533fa828ba61e216ae3fb4b34970a314e5959.jpg"},
 	{id:35, name: "loquat", zh: "枇杷", pronounce: "美 [ˈloʊkwɑ:t]", cover: "http://imgsrc.baidu.com/baike/pic/item/a1ec08fa513d2697328880cf5ffbb2fb4216d8cd.jpg"},
-	{id:36, name: "Muskmelon", zh: "甜瓜;香甘瓜，香瓜", pronounce: "美 ['mʌskˌmelən]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537642431510&di=ff43e4b28e2347eb41b10c539ccbc7cb&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimage%2Fc0%253Dpixel_huitu%252C0%252C0%252C294%252C40%2Fsign%3D5127f8f148166d222c7a1dd42f5b6c9b%2F5ab5c9ea15ce36d3d1e5fc0a31f33a87e950b122.jpg"}
+	{id:36, name: "Muskmelon", zh: "甜瓜", pronounce: "美 ['mʌskˌmelən]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537642431510&di=ff43e4b28e2347eb41b10c539ccbc7cb&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimage%2Fc0%253Dpixel_huitu%252C0%252C0%252C294%252C40%2Fsign%3D5127f8f148166d222c7a1dd42f5b6c9b%2F5ab5c9ea15ce36d3d1e5fc0a31f33a87e950b122.jpg"}
 ];
 
 let VegetablesWordDb = [
@@ -63,32 +63,32 @@ let VegetablesWordDb = [
 ];
 
 let NumbersDb = [
-	{number: 1, en: "one"},
-	{number: 2, en: "tow"},
-	{number: 3, en: "three"},
-	{number: 4, en: "four"},
-	{number: 5, en: "five"},
-	{number: 6, en: "six"},
-	{number: 7, en: "seven"},
-	{number: 8, en: "eight"},
-	{number: 9, en: "nine"},
-	{number: 0, en: "zero"}
+	{number: 1, name: "one"},
+	{number: 2, name: "two"},
+	{number: 3, name: "three"},
+	{number: 4, name: "four"},
+	{number: 5, name: "five"},
+	{number: 6, name: "six"},
+	{number: 7, name: "seven"},
+	{number: 8, name: "eight"},
+	{number: 9, name: "nine"},
+	{number: 0, name: "zero"}
 ];
 
 let ColorsDb = [
-	{id: 1, name: "red", zh: "红", pronounce: "美 [rɛd]", cover: ""},
-	{id: 2, name: "orange", zh: "橙", pronounce: "美 [ˈɔ:rɪndʒ]", cover: ""},
-	{id: 3, name: "yellow", zh: "黄", pronounce: "美 [ˈjeloʊ]", cover: ""},
-	{id: 4, name: "green", zh: "绿", pronounce: "美 [ɡrin]", cover: ""},
-	{id: 5, name: "blue", zh: "蓝", pronounce: "美 [blu]", cover: ""},
-	{id: 6, name: "purple", zh: "紫", pronounce: "美 [ˈpɜ:rpl]", cover: ""},
-	{id: 7, name: "gray", zh: "灰", pronounce: "美 [ɡre]", cover: ""},
-	{id: 8, name: "pink", zh: "粉", pronounce: "美 [pɪŋk]", cover: ""},
-	{id: 9, name: "black", zh: "黑", pronounce: "美 [blæk]", cover: ""},
-	{id: 10, name: "brown", zh: "棕", pronounce: "美 [braʊn]", cover: ""},
-	{id: 11, name: "cyan", zh: "青", pronounce: "美 [ˈsaɪˌæn, -ən]", cover: ""},
-	{id: 12, name: "silver", zh: "银", pronounce: "美 [ˈsɪlvɚ]", cover: ""},
-	{id: 13, name: "tan", zh: "茶色;晒黑的皮色", pronounce: "美 [tæn]", cover: ""}
+	{id: 1, name: "red", zh: "红", pronounce: "美 [rɛd]", cover: "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1543620769,737689844&fm=11&gp=0.jpg"},
+	{id: 2, name: "orange", zh: "橙", pronounce: "美 [ˈɔ:rɪndʒ]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1538073900203&di=287a11a99142c678dffd18cf7501b6be&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2Fbba1cd11728b4710195ed5e8c9cec3fdfc0323a4.jpg"},
+	{id: 3, name: "yellow", zh: "黄", pronounce: "美 [ˈjeloʊ]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1538073928681&di=ae8d1c67f2949051089b391a178cf55a&imgtype=0&src=http%3A%2F%2Fscimg.jb51.net%2Fallimg%2F170205%2F106-1F2050933064Q.jpg"},
+	{id: 4, name: "green", zh: "绿", pronounce: "美 [ɡrin]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1538073962486&di=c97bd11a7879009d367023e36172ab2b&imgtype=0&src=http%3A%2F%2Fwww.jituwang.com%2Fuploads%2Fallimg%2F141206%2F259009-14120609545343.jpg"},
+	{id: 5, name: "blue", zh: "蓝", pronounce: "美 [blu]", cover: "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1959213734,664880137&fm=200&gp=0.jpg"},
+	{id: 6, name: "purple", zh: "紫", pronounce: "美 [ˈpɜ:rpl]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1538074062160&di=de779dd98469cd64da1030eadc304beb&imgtype=0&src=http%3A%2F%2Fimage.tupian114.com%2F20151013%2F07430128.jpg"},
+	{id: 7, name: "gray", zh: "灰", pronounce: "美 [ɡre]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1538074091115&di=32da30c4798cbe70d166cfb4d81bca9b&imgtype=0&src=http%3A%2F%2Fimg21.hc360.cn%2F21%2Fbusin%2F109%2F981%2Fb%2F21-109981491.jpg"},
+	{id: 8, name: "pink", zh: "粉", pronounce: "美 [pɪŋk]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1538074130942&di=8e86bde851daab2f00ebb7370d82a576&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2F48540923dd54564efc72fa1fb9de9c82d1584f84.jpg"},
+	{id: 9, name: "black", zh: "黑", pronounce: "美 [blæk]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1538074167393&di=266130c5ada127eef24c4bbfe4d7c1cf&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2Fc2fdfc039245d688960905b3aec27d1ed21b2499.jpg"},
+	{id: 10, name: "brown", zh: "棕", pronounce: "美 [braʊn]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1538074207793&di=b805a01687380f98064a78b35680d784&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2Fa5c27d1ed21b0ef4a81ebb65d6c451da81cb3e12.jpg"},
+	{id: 11, name: "cyan", zh: "青", pronounce: "美 [ˈsaɪˌæn, -ən]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1538074247845&di=61aa221751647ccab17a9cca430e1cf6&imgtype=jpg&src=http%3A%2F%2Fimg1.imgtn.bdimg.com%2Fit%2Fu%3D857693781%2C265450735%26fm%3D214%26gp%3D0.jpg"},
+	{id: 12, name: "silver", zh: "银", pronounce: "美 [ˈsɪlvɚ]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1538074275040&di=d76c7d43bbd3159f6b87af9c78a45fe1&imgtype=0&src=http%3A%2F%2Fpic.90sjimg.com%2Fback_pic%2Fqk%2Fback_origin_pic%2F00%2F03%2F20%2F541171f9489813078ae34390b0696253.jpg"},
+	{id: 13, name: "tan", zh: "茶色", pronounce: "美 [tæn]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1538074322030&di=2683ff980203e6d9e2505fb0326f2c6f&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201301%2F05%2F20130105174951_Q4sMf.jpeg"}
 ];
 
 let StationerDb = [
@@ -96,14 +96,13 @@ let StationerDb = [
 	{id:0, name: "pencil", zh: "铅笔", pronounce: "美 [ˈpɛnsəl]", cover: "https://imgsrc.baidu.com/image/c0%3Dshijue1%2C0%2C0%2C294%2C40/sign=5d3a803fd754564ef168ec7adbb7f6f7/9358d109b3de9c82c53645a36681800a19d8434e.jpg"},
 	{id:0, name: "ruler", zh: "尺子", pronounce: "美 [ˈrulɚ]", cover: "http://worldartsme.com/images/ruler-clipart-1.jpg"},
 	{id:0, name: "stapler", zh: "订书机", pronounce: "美 [ˈsteplɚ]", cover: "http://ec4.images-amazon.com/images/I/41gYza2GfWL.jpg"},
-	{id:0, name: "eraser", zh: "橡皮擦,板擦", pronounce: "美 [ɪˈreɪsər]", cover: "http://img4.imgtn.bdimg.com/it/u=1351558437,1842047593&fm=26&gp=0.jpg"},
+	{id:0, name: "eraser", zh: "橡皮擦", pronounce: "美 [ɪˈreɪsər]", cover: "http://img4.imgtn.bdimg.com/it/u=1351558437,1842047593&fm=26&gp=0.jpg"},
 	{id:0, name: "pencil-case", zh: "铅笔盒", pronounce: "美 [ˈpɛnsəl kes]", cover: "http://imgsrc.baidu.com/baike/pic/item/d50735fae6cd7b89c96f8c0d052442a7d9330e38.jpg"},
 	{id:0, name: "crayon", zh: "蜡笔", pronounce: "美 ['kreɪən]", cover: "http://pic.58pic.com/58pic/15/56/53/32258PICbWf_1024.png"},
 	{id:0, name: "sharpener", zh: "卷笔刀", pronounce: "美 [ˈʃɑ:rpnə(r)]", cover: "http://images.onccc.com/i003/2014/10/18/49/big_b7d5f3c5cb7e6250c4a0ec7dd0660ad7.jpg"},
 	{id:0, name: "clips", zh: "回旋针", pronounce: "", cover: "http://image4.suning.cn/uimg/b2c/newcatentries/0070088753-000000000149153406_4_800x800.jpg"},
-	{id:0, name: "glue", zh: "胶水", pronounce: "美 [ɡlu]", cover: ""},
-	{id:0, name: "scissors", zh: "剪刀", pronounce: "美 [ˈsɪzərz]", cover: "http://pic.58pic.com/58pic/15/57/05/12r58PICt6V_1024.png"},
-	{id:0, name: ""}
+	{id:0, name: "glue", zh: "胶水", pronounce: "美 [ɡlu]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1538075768438&di=63a4a69b364c2040a933994d8d3cb8ef&imgtype=0&src=http%3A%2F%2Fzx.youzhu.com%2Fuploadfile%2F2017%2F0518%2F20170518105435570.jpg"},
+	{id:0, name: "scissors", zh: "剪刀", pronounce: "美 [ˈsɪzərz]", cover: "http://pic.58pic.com/58pic/15/57/05/12r58PICt6V_1024.png"}
 ];
 
 let AnimalsDb = [
@@ -113,7 +112,7 @@ let AnimalsDb = [
 	{id:0, name: "bird", zh: "鸟", pronounce: "美 [bɜ:rd]", cover: "http://img4.imgtn.bdimg.com/it/u=2927196502,2743857028&fm=26&gp=0.jpg"},
 	{id:0, name: "lion", zh: "狮子", pronounce: "美 [ˈlaɪən]", cover: "http://imgsrc.baidu.com/baike/pic/item/060828381f30e9245f7487ae4a086e061c95f759.jpg"},
 	{id:0, name: "tiger", zh: "老虎", pronounce: "美 [ˈtaɪɡɚ]", cover: "http://imgsrc.baidu.com/baike/pic/item/3b87e950352ac65c7ae3a5b4fbf2b21192138a17.jpg"},
-	{id:0, name: "leopard", zh: "豹;美洲豹，金钱豹", pronounce: "美 [ˈlepərd]", cover: "http://imgsrc.baidu.com/baike/pic/item/38dbb6fd5266d016b99f8140942bd40734fa35d7.jpg"},
+	{id:0, name: "leopard", zh: "豹", pronounce: "美 [ˈlepərd]", cover: "http://imgsrc.baidu.com/baike/pic/item/38dbb6fd5266d016b99f8140942bd40734fa35d7.jpg"},
 	{id:0, name: "panda", zh: "熊猫", pronounce: "美 [ˈpændə]", cover: "http://imgsrc.baidu.com/baike/pic/item/64380cd7912397dd8bd8ec805982b2b7d1a28794.jpg"},
 	{id:0, name: "wolf", zh: "狼", pronounce: "美 [wʊlf]", cover: "http://imgsrc.baidu.com/baike/pic/item/37d3d539b6003af390a8476c312ac65c1038b6a8.jpg"},
 	{id:0, name: "zebra", zh: "斑马", pronounce: "美 [ˈzibrə]", cover: "http://imgsrc.baidu.com/baike/pic/item/b3119313b07eca80baf3840d912397dda0448362.jpg"},
@@ -162,8 +161,7 @@ let TransportationDb = [
 	{id:0, name: "Bicycle", zh: "自行车", pronounce: "美 [ˈbaɪsɪkl]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537987629778&di=8e3f6c8d7d7470992ebc05e3e875d746&imgtype=jpg&src=http%3A%2F%2Fimg4.imgtn.bdimg.com%2Fit%2Fu%3D2437549599%2C4209829176%26fm%3D214%26gp%3D0.jpg"},
 	{id:0, name: "taxi", zh: "出租车", pronounce: "美 [ˈtæksi]", cover: "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1956194174,3174202337&fm=26&gp=0.jpg"},
 	{id:0, name: "Scooter", zh: "滑板车", pronounce: "美 [ˈskutɚ]", cover: "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2643165915,151055753&fm=26&gp=0.jpg"},
-	{id:0, name: "vehicle", zh: "", pronounce: "", cover: ""},
-	{id:0, name: "ship", zh: "", pronounce: "", cover: ""},
+	{id:0, name: "ship", zh: "船", pronounce: "美 [ʃɪp]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1538024875058&di=236c66908498abf318321358ab73ee6f&imgtype=0&src=http%3A%2F%2Fimg.25pp.com%2Fuploadfile%2Fapp%2Ficon%2F20160401%2F1459478404189993.jpg"},
 	{id:0, name: "motorcycle", zh: "摩托车", pronounce: "美 [ˈmoʊtərsaɪkl]", cover: "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2724725557,2927685458&fm=26&gp=0.jpg"},
 	{id:0, name: "train", zh: "火车", pronounce: "美 [tren]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537988135648&di=da5eb66896332ff1cf235ad752c3afa4&imgtype=0&src=http%3A%2F%2Fcdn.ipernity.com%2F200%2F36%2F48%2F43303648.70e059b8.640.jpg%3Fr2"},
 	{id:0, name: "bus", zh: "公共汽车", pronounce: "美 [bʌs]", cover: "http://imgsrc.baidu.com/baike/pic/item/6d81800a19d8bc3e12ac34aa818ba61ea8d3452d.jpg"},
@@ -173,10 +171,19 @@ let TransportationDb = [
 	{id:0, name: "police car", zh: "警车", pronounce: "美 [pəˈlis kɑr]", cover: "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2491938402,3677278119&fm=26&gp=0.jpg"},
 	{id:0, name: "van", zh: "厢式货车", pronounce: "美 [væn]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537987999591&di=119de5ad8cda1647df7cc9fed34b83cd&imgtype=0&src=http%3A%2F%2Fimg.tradekey.com%2Fp-7049277-20131127121509%2Fdamas-ii-deluxe-fullvan.jpg"},
 	{id:0, name: "sailboat", zh: "帆船", pronounce: "美 [ˈseɪlboʊt]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537987540357&di=d01733e7789b52c47ea423d25ab061ad&imgtype=0&src=http%3A%2F%2Fs13.sinaimg.cn%2Fmw690%2F001TCnN9zy74UuUfaNK7c%26690"},
-	{id:0, name: "excavator", zh: "挖掘机", pronounce: "美 [ˈɛkskəˌvetɚ]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537987477171&di=d87b566f45ef4dca8cd08a9466da7f96&imgtype=0&src=http%3A%2F%2Fimage3.cccme.org.cn%2Fi_supply%2F13-11-22%2F13112210100593.jpg"}
+	{id:0, name: "excavator", zh: "挖掘机", pronounce: "美 [ˈɛkskəˌvetɚ]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537987477171&di=d87b566f45ef4dca8cd08a9466da7f96&imgtype=0&src=http%3A%2F%2Fimage3.cccme.org.cn%2Fi_supply%2F13-11-22%2F13112210100593.jpg"},
+	{id:0, name: "crane", zh: "吊车", pronounce: "美 [kren]", cover: "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3404486914,2712011780&fm=26&gp=0.jpg"},
+	{id:0, name: "bulldozer", zh: "推土机", pronounce: "美 [ˈbʊldoʊzə(r)]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1538025242113&di=9a8f7782e3f4bcdf9cc600ff327bd255&imgtype=0&src=http%3A%2F%2Fsc01.alicdn.com%2Fkf%2FHTB1U25ohuuSBuNjy1Xcq6AYjFXaX%2FGood-quality-bulldozer-t170.jpg"},
+	{id:0, name: "ambulance", zh: "救护车", pronounce: "美 [ˈæmbjələns]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1538026070792&di=a0b65f117f617f48b9a4493beb4446fd&imgtype=0&src=http%3A%2F%2Fimg.25pp.com%2Fuploadfile%2Fyouxi%2Fimages%2F2014%2F1223%2F20141223090350832.jpg"},
+	{id:0, name: "fire engine", zh: "消防车", pronounce: "美 [faɪr ˈɛndʒɪn]", cover: "http://imgsrc.baidu.com/baike/pic/item/7af40ad162d9f2d39ee2427da3ec8a136227ccb5.jpg"},
+	{id:0, name: "garbage truck", zh: "垃圾车", pronounce: "美 [ˈɡɑrbɪdʒ trʌk]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1538026376514&di=abe15e99f4e6c1d9130921a708383aa2&imgtype=0&src=http%3A%2F%2Fd10.yihaodianimg.com%2FN01%2FM02%2F5A%2F1B%2FCgQCrlL78ByAOZYNAADZEBwVuGk98000_640x640.jpg"},
+	{id:0, name: "tractor", zh: "拖拉机", pronounce: "美 [ˈtræktɚ]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1538026468528&di=11b411d7b4d3a5a64881734286eea0e4&imgtype=0&src=http%3A%2F%2Fimg.hisupplier.com%2Fvar%2FuserImages%2F2008-10%2F16%2Fcnjtyre%2524182531596%2528s%2529.jpg"},
+	{id:0, name: "lorry", zh: "重型卡车", pronounce: "美 [ˈlɔ:ri]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1538026604715&di=6ce2e6c8fcff8cde7743aa46f2f6259d&imgtype=0&src=http%3A%2F%2Fsc01.alicdn.com%2Fkf%2FHTB1Goj3cpTM8KJjSZFlq6yO8FXac%2FHigh-capacity-8x4-lorry-heavy-load-tipper.jpg"},
+	{id:0, name: "jeep", zh: "吉普车", pronounce: "美 [dʒi:p]", cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1538027644665&di=a586b276e92afcd87eb083b5db1e1821&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01533c5625b2006ac7254878db0158.jpg%402o.jpg"}
 ];
 
 module.exports = {
+	NumbersDb: NumbersDb,
 	AnimalsDb: AnimalsDb,
 	StationerDb: StationerDb,
 	ColorsDb: ColorsDb,

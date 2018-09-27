@@ -1,6 +1,7 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/wordcards/number",
     "pages/wordcards/list",
     "pages/alphabet/testword",
     "pages/wordcards/index",

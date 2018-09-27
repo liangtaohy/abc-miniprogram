@@ -1,0 +1,13 @@
+<view class="container">
+	<view style="display: flex; flex-direction: column;">
+		<view>
+			<canvas canvas-id="stage" disable-scroll="true" bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd" style="width: 400px; height: 500px;"></canvas>
+		</view>
+		<view class="{{color}}" style="display: flex;justify-content: center;" bindtap="play" data-src="https://fanyi.baidu.com/gettts?lan=en&text={{name}}&spd=3&source=web">
+			<view>
+				<text class="big">{{name}}</text>
+				<text class="trans-listen-button jfk-button-img"></text>
+			</view>
+		</view>
+	</view>
+</view>
